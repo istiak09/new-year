@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* first section */
+#first-sec{
+    background-image: url(/new-year/images/banner/banner1.png);
+    height: 800px;
+}
+#first-sec div{
+    padding: 200px 0 0 900px;
+    width: 400px;
+    text-align: right;  
+    font-size: 22px;
+}
+.btn-1{
+    color: white;
+    background-color: rgb(255, 101, 45);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
+}
+.s-text{
+    font-size: small;
+    color:rgba(0, 0, 0, 0.551);
+}
+/* second section */
+#second-sec{
+    display: flex;
+}
+#second-sec div{
+    width: 50%;
+    padding: 100px;
+}
+.sec2div2{
+    margin-top: 200px;
+}
+
+/* third section */
+#third-sec{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+#s3-h1{
+    text-align: center;
+}
+/* fourth section */
+#fourth-sec{
+    margin: 200px;
+    width: 60%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(/new-year/images/gradient2.png);
+}
+#fourth-sec div{
+    padding: 30px;
+    width: 50%;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: azure;
+    display: flex;
+}
+
+footer div{
+    width: 50%;
+    padding: 100px;
+    color: rgba(240, 248, 255, 0.778);
+}
+input{
+    border: 1px solid rgba(255, 255, 255, 0.859);
+    padding:10px 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+.btn-2{
+    color: rgb(255, 101, 45);
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
+}
